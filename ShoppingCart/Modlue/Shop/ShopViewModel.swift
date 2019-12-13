@@ -119,6 +119,7 @@ extension ShopViewModel {
                                            price: product.price,
                                            quantity: 0)
                 tableViewItems.append(nonCartItem)
+                
             }
         
             if totalQuantity == 0 {
