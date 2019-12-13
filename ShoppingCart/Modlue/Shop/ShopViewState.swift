@@ -7,8 +7,9 @@
 //
 
 struct ShopViewState{
-    var cartButtonLabelText : String
-    var tablezViewItems : [Product]
-    var totalCostlabelText : String
-    var totalQuantityLabelText : String
+    let cartButtonLabelText : String
+    let tableViewItems : [CartItem]
+    let totalCostlabelText : String
+    let totalQuantityLabelText : String
+    let cartButtonState : Bool
 }

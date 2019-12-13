@@ -15,7 +15,7 @@ struct CartItem {
     init(id:Int ,name: String ,price:Int ,quantity: Int) {
         self.name = name
         self.quantity = quantity
-        self.id=id
-        self.price=price * quantity
+        self.id = id
+        self.price = price
     }
 }

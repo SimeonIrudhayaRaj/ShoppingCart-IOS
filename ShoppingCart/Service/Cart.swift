@@ -6,10 +6,21 @@
 //  Copyright © 2019 Simeon Irudhaya Raj J. All rights reserved.
 //
 
+protocol CartObserver: class {
+    func itemsChanged(to cartItems: [CartItem])
+}
+
 class Cart {
     static let shared = Cart()
     private let shop = Shop.shared
-    private var cartItems: [CartItem] = []
+    
+    weak var observer: CartObserver?
+    
+    private var cartItems: [CartItem] = [] {
+        didSet {
+            observer?.itemsChanged(to: cartItems)
+        }
+    }
     
     func addItem(id:Int) {
         for (i, cartItem) in cartItems.enumerated() where cartItem.id == id {
@@ -68,16 +79,27 @@ class Cart {
         return cartItem
         
     }
+    func getCartItems() -> [CartItem] {
+        return cartItems
+    }
     
     func getTotalCost() -> Int {
         var totalCost :Int = 0
         for cartItem in cartItems {
-            totalCost +=  cartItem.price
+            totalCost +=  cartItem.price * cartItem.quantity
         }
         return totalCost
 
     }
     
+//    func getCartItemWithId (id:Int) -> CartItem? {
+//        let currentCartItem :CartItem?
+//        for cartItem in cartItems where cartItem.id == id {
+//             currentCartItem = cartItem
+//            break
+//        }
+//        return currentCartItem
+//    }
 }
 
 

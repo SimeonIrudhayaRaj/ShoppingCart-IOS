@@ -10,7 +10,6 @@ class CartTableViewCellModel {
     private let shop = Shop.shared
     private let cart = Cart.shared
     func plusButtonPressed(id:Int){
-        let cartItem = cart.getCartItem(id: id)
         cart.addItem(id: id)
     }
     

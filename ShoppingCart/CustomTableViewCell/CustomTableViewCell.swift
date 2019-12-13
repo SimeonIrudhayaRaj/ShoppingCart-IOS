@@ -8,10 +8,6 @@
 
 import UIKit
 
-protocol CustomTableCellDelegate {
-    func refreshScreen()
-}
-
 class CustomTableViewCell: UITableViewCell {
     // MARK: - IBOutlets
     @IBOutlet weak var quantity: UILabel!
@@ -19,9 +15,14 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var id: UILabel!
 
+    // MARK: - State
+    private var state = CustomTableCellState(quantity: 0){
+        didSet {
+            
+        }
+    }
     // MARK: - Properties
     var viewModel = CustomTableCellViewModel()
-    var delegate: CustomTableCellDelegate?
 }
 
 // MARK: - IBActions
@@ -29,12 +30,10 @@ private extension CustomTableViewCell {
     @IBAction func plus(_ sender: Any) {
         guard let id = Int(self.id.text!) else { return }
         viewModel.addButtonPressed(id: id)
-        delegate?.refreshScreen()
     }
     
     @IBAction func minus(_ sender: Any) {
         guard let id = Int(self.id.text!) else { return }
         viewModel.removeButtomPressed(id:id)
-        delegate?.refreshScreen()
     }
 }

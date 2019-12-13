@@ -13,6 +13,8 @@
 		CB28B3F123A21FC1002F3B26 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3F023A21FC1002F3B26 /* CartItem.swift */; };
 		CB28B3F323A25CF0002F3B26 /* CartTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3F223A25CF0002F3B26 /* CartTableViewCellModel.swift */; };
 		CB28B3F523A26386002F3B26 /* ShopViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3F423A26386002F3B26 /* ShopViewState.swift */; };
+		CB28B3F723A2A18F002F3B26 /* CustomTableViewCellState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3F623A2A18F002F3B26 /* CustomTableViewCellState.swift */; };
+		CB28B3F923A34480002F3B26 /* CartViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3F823A34480002F3B26 /* CartViewState.swift */; };
 		CB2AD44323A0E68400B6B6F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2AD44223A0E68400B6B6F3 /* AppDelegate.swift */; };
 		CB2AD44523A0E68400B6B6F3 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2AD44423A0E68400B6B6F3 /* ShopViewController.swift */; };
 		CB2AD44823A0E68400B6B6F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2AD44623A0E68400B6B6F3 /* Main.storyboard */; };
@@ -52,6 +54,8 @@
 		CB28B3F023A21FC1002F3B26 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
 		CB28B3F223A25CF0002F3B26 /* CartTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCellModel.swift; sourceTree = "<group>"; };
 		CB28B3F423A26386002F3B26 /* ShopViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewState.swift; sourceTree = "<group>"; };
+		CB28B3F623A2A18F002F3B26 /* CustomTableViewCellState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellState.swift; sourceTree = "<group>"; };
+		CB28B3F823A34480002F3B26 /* CartViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewState.swift; sourceTree = "<group>"; };
 		CB2AD43F23A0E68400B6B6F3 /* ShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB2AD44223A0E68400B6B6F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB2AD44423A0E68400B6B6F3 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 			children = (
 				CB2AD47023A0EF8100B6B6F3 /* CustomTableViewCell.swift */,
 				CB2AD47623A10A2400B6B6F3 /* CustomTableCellViewModel.swift */,
+				CB28B3F623A2A18F002F3B26 /* CustomTableViewCellState.swift */,
 			);
 			path = CustomTableViewCell;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 				CB28B3EE23A219AB002F3B26 /* CartTableViewCell.swift */,
 				CB28B3F223A25CF0002F3B26 /* CartTableViewCellModel.swift */,
 				CB28B3EC23A21846002F3B26 /* CartViewModel.swift */,
+				CB28B3F823A34480002F3B26 /* CartViewState.swift */,
 			);
 			path = Cart;
 			sourceTree = "<group>";
@@ -345,7 +351,9 @@
 			files = (
 				CB2AD47923A10B2500B6B6F3 /* Cart.swift in Sources */,
 				CB2AD47123A0EF8100B6B6F3 /* CustomTableViewCell.swift in Sources */,
+				CB28B3F723A2A18F002F3B26 /* CustomTableViewCellState.swift in Sources */,
 				CB28B3F523A26386002F3B26 /* ShopViewState.swift in Sources */,
+				CB28B3F923A34480002F3B26 /* CartViewState.swift in Sources */,
 				CB2AD47323A103CA00B6B6F3 /* Product.swift in Sources */,
 				CB28B3F323A25CF0002F3B26 /* CartTableViewCellModel.swift in Sources */,
 				CB2AD44523A0E68400B6B6F3 /* ShopViewController.swift in Sources */,
