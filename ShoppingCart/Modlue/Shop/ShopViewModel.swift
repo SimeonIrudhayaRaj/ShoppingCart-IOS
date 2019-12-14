@@ -11,14 +11,25 @@ protocol ShopViewModelDelegate: class {
 }
 
 class ShopViewModel: CartObserver {
-    private let shop = Shop.shared
-    private let cart = Cart.shared
+    // MARK: - Dependencies
+    private let shop: ShopService
+    private let cart: CartService
     
     weak var delegate: ShopViewModelDelegate?
     
-    init() {
-        cart.observer = self
+    init(shop: ShopService, cart: CartService) {
+        self.shop = shop
+        self.cart = cart
+        
+        cart.setObserver(self)
     }
+    
+    func viewWillAppear() {
+        cart.setObserver(self)
+//        reloadState()
+    }
+    
+    
     
     private var state = ShopViewState(
         cartButtonLabelText: "Cart",
@@ -27,10 +38,14 @@ class ShopViewModel: CartObserver {
         totalQuantityLabelText: "0",
         cartButtonState : false
         
-    ) {
+        ) {
         didSet {
             delegate?.stateChanged(to: state)
         }
+    }
+    
+    func getState() -> ShopViewState {
+        return state
     }
     
     func viewDidLoad(){
@@ -73,7 +88,7 @@ class ShopViewModel: CartObserver {
     func getTotalCostLabelValue() -> String {
         return "\(cart.getTotalCost())"
     }
-
+    
     func isCartButtonEnabled() -> Int {
         if cart.getTotalQuantity() == 0{
             return 0
@@ -86,34 +101,22 @@ class ShopViewModel: CartObserver {
 // MARK: - CartObserver
 extension ShopViewModel {
     func itemsChanged(to cartItems: [CartItem]) {
+        reloadState()
+    }
+    
+    func reloadState(){
         let totalQuantity = cart.getTotalQuantity()
         let totalCost = cart.getTotalCost()
         var tableViewItems:[CartItem] = []
         var cartButtonState:Bool = false
-        
-        
-//                for product in shop.getProducts() {
-//                    for cartItem in cartItems where product.id == cartItem.id {
-//                        tableViewItems.append(cartItem)
-//
-//                    } else {
-//                        let nonCartItem = CartItem(id: product.id,
-//                                                   name: product.name,
-//                                                   price: product.price,
-//                                                   quantity: 0)
-//                        tableViewItems.append(nonCartItem)
-//                    }
-//                  }
-//    }
-        
         for product in shop.getProducts() {
-            var flag=0
-            for cartItem in cartItems where product.id == cartItem.id {
+            var isItemInCart = false
+            for cartItem in cart.getCartItems() where product.id == cartItem.id {
                 tableViewItems.append(cartItem)
-                flag = 1
+                isItemInCart = true
                 break
             }
-            if flag == 0{
+            if isItemInCart == false{
                 let nonCartItem = CartItem(id: product.id,
                                            name: product.name,
                                            price: product.price,
@@ -121,7 +124,7 @@ extension ShopViewModel {
                 tableViewItems.append(nonCartItem)
                 
             }
-        
+            
             if totalQuantity == 0 {
                 cartButtonState = false
             } else {
@@ -135,5 +138,6 @@ extension ShopViewModel {
                 cartButtonState: cartButtonState
             )
         }
+        
     }
 }

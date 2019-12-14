@@ -50,6 +50,8 @@ extension CartViewController{
         let cell = tableView.dequeueReusableCell(withIdentifier: "CartCell", for: indexPath) as! CartTableViewCell
 
 //        let cellData = viewModel.getCellData(id: indexPath.row)
+        
+        
         let cellData = state.tableViewItems[indexPath.row]
         cell.productName.text = cellData.name
         cell.productQuantity.text = "\(cellData.quantity)"

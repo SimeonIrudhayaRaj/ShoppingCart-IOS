@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB154D4D23A3BD1E00E1250E /* ShopService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB154D4C23A3BD1E00E1250E /* ShopService.swift */; };
+		CB154D4F23A3BD4100E1250E /* ShopViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB154D4E23A3BD4100E1250E /* ShopViewModelFactory.swift */; };
+		CB154D5123A3C15E00E1250E /* ShopViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB154D5023A3C15E00E1250E /* ShopViewModelTests.swift */; };
+		CB154D5423A3C25E00E1250E /* MockShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB154D5323A3C25E00E1250E /* MockShop.swift */; };
+		CB154D5623A3C3A300E1250E /* CartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB154D5523A3C3A300E1250E /* CartService.swift */; };
+		CB154D5823A3C57B00E1250E /* MockCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB154D5723A3C57B00E1250E /* MockCart.swift */; };
 		CB28B3B023A209D0002F3B26 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3AF23A209D0002F3B26 /* CartViewController.swift */; };
 		CB28B3ED23A21846002F3B26 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3EC23A21846002F3B26 /* CartViewModel.swift */; };
 		CB28B3EF23A219AB002F3B26 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB28B3EE23A219AB002F3B26 /* CartTableViewCell.swift */; };
@@ -48,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB154D4C23A3BD1E00E1250E /* ShopService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopService.swift; sourceTree = "<group>"; };
+		CB154D4E23A3BD4100E1250E /* ShopViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModelFactory.swift; sourceTree = "<group>"; };
+		CB154D5023A3C15E00E1250E /* ShopViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewModelTests.swift; sourceTree = "<group>"; };
+		CB154D5323A3C25E00E1250E /* MockShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockShop.swift; sourceTree = "<group>"; };
+		CB154D5523A3C3A300E1250E /* CartService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartService.swift; sourceTree = "<group>"; };
+		CB154D5723A3C57B00E1250E /* MockCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCart.swift; sourceTree = "<group>"; };
 		CB28B3AF23A209D0002F3B26 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		CB28B3EC23A21846002F3B26 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
 		CB28B3EE23A219AB002F3B26 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
@@ -102,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB154D5223A3C25100E1250E /* MockServices */ = {
+			isa = PBXGroup;
+			children = (
+				CB154D5323A3C25E00E1250E /* MockShop.swift */,
+				CB154D5723A3C57B00E1250E /* MockCart.swift */,
+			);
+			path = MockServices;
+			sourceTree = "<group>";
+		};
 		CB28B3AA23A20744002F3B26 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +156,10 @@
 			isa = PBXGroup;
 			children = (
 				CB2AD47823A10B2500B6B6F3 /* Cart.swift */,
+				CB154D5523A3C3A300E1250E /* CartService.swift */,
 				CB2AD47A23A116CD00B6B6F3 /* Shop.swift */,
+				CB154D4C23A3BD1E00E1250E /* ShopService.swift */,
+				CB154D4E23A3BD4100E1250E /* ShopViewModelFactory.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -201,6 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				CB2AD45723A0E68400B6B6F3 /* ShoppingCartTests.swift */,
+				CB154D5023A3C15E00E1250E /* ShopViewModelTests.swift */,
+				CB154D5223A3C25100E1250E /* MockServices */,
 				CB2AD45923A0E68400B6B6F3 /* Info.plist */,
 			);
 			path = ShoppingCartTests;
@@ -350,10 +376,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB2AD47923A10B2500B6B6F3 /* Cart.swift in Sources */,
+				CB154D4D23A3BD1E00E1250E /* ShopService.swift in Sources */,
 				CB2AD47123A0EF8100B6B6F3 /* CustomTableViewCell.swift in Sources */,
 				CB28B3F723A2A18F002F3B26 /* CustomTableViewCellState.swift in Sources */,
 				CB28B3F523A26386002F3B26 /* ShopViewState.swift in Sources */,
+				CB154D4F23A3BD4100E1250E /* ShopViewModelFactory.swift in Sources */,
 				CB28B3F923A34480002F3B26 /* CartViewState.swift in Sources */,
+				CB154D5623A3C3A300E1250E /* CartService.swift in Sources */,
 				CB2AD47323A103CA00B6B6F3 /* Product.swift in Sources */,
 				CB28B3F323A25CF0002F3B26 /* CartTableViewCellModel.swift in Sources */,
 				CB2AD44523A0E68400B6B6F3 /* ShopViewController.swift in Sources */,
@@ -372,6 +401,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB154D5423A3C25E00E1250E /* MockShop.swift in Sources */,
+				CB154D5823A3C57B00E1250E /* MockCart.swift in Sources */,
+				CB154D5123A3C15E00E1250E /* ShopViewModelTests.swift in Sources */,
 				CB2AD45823A0E68400B6B6F3 /* ShoppingCartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

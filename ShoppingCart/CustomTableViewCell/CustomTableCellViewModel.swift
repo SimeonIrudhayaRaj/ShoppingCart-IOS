@@ -9,6 +9,7 @@
 class CustomTableCellViewModel {
     private let shop = Shop.shared
     private let cart = Cart.shared
+
     func addButtonPressed(id:Int) {
         cart.addItem(id:id)
     }

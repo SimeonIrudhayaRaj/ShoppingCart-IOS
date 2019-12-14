@@ -10,8 +10,15 @@ protocol CartObserver: class {
     func itemsChanged(to cartItems: [CartItem])
 }
 
-class Cart {
+class Cart: CartService {
+    
+    
+    func setObserver(_ observer: CartObserver?) {
+        self.observer = observer
+    }
+    
     static let shared = Cart()
+
     private let shop = Shop.shared
     
     weak var observer: CartObserver?

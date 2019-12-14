@@ -10,14 +10,13 @@ import UIKit
 
 class ShopViewController: UIViewController, UITableViewDataSource, ShopViewModelDelegate {
     // MARK: - IBOutlets
-    @IBOutlet weak var cartButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var navigationCartButton: UIBarButtonItem!
     @IBOutlet weak var totalCost: UILabel!
     @IBOutlet weak var totalQuantity: UILabel!
 
     // MARK: - Dependencies
-    var viewModel = ShopViewModel()
+    var viewModel = ShopViewModelFactory.createInstance()
     
     // MARK: - Properties
     private var state = ShopViewState(
@@ -43,7 +42,15 @@ extension ShopViewController {
         viewModel.delegate = self
         viewModel.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        viewModel.viewWillAppear()
+    }
+
 }
+
+
+
 
 // MARK: -  UITableViewDataSource
 extension ShopViewController {
@@ -69,7 +76,7 @@ extension ShopViewController{
         totalCost.text = state.totalCostlabelText
         totalQuantity.text = state.totalQuantityLabelText
         tableView.reloadData()
-//        cartButton.isEnabled = state.cartButtonState
+//        navigationCartButton.isEnabled = state.cartButtonState
         
     }
 }

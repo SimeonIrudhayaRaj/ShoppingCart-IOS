@@ -1,16 +1,16 @@
 //
-//  Shop.swift
-//  ShoppingCart
+//  MockShop.swift
+//  ShoppingCartTests
 //
-//  Created by Simeon Irudhaya Raj J on 11/12/19.
+//  Created by Simeon Irudhaya Raj J on 13/12/19.
 //  Copyright © 2019 Simeon Irudhaya Raj J. All rights reserved.
 //
 
-class Shop: ShopService {
-    static let shared = Shop()
-    
-    private var products: [Product] = []
+@testable import ShoppingCart
 
+class MockShop: ShopService {
+    private var products: [Product] = []
+    
     init() {
         products = [
             Product(id: 1, name: "A", price : 10),
