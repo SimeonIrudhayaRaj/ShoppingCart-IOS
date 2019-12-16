@@ -51,7 +51,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="76" id="DrP-JB-ExK" customClass="CustomTableViewCell" customModule="ShoppingCart" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="76" id="DrP-JB-ExK" customClass="ShopTableViewCellController" customModule="ShoppingCart" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="377" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DrP-JB-ExK" id="k8q-lO-JYJ">
@@ -106,6 +106,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="id" destination="C0Z-LL-3U0" id="6JI-Yi-KG1"/>
+                                            <outlet property="minusButton" destination="rnv-jq-nYe" id="iDg-d3-Lkr"/>
                                             <outlet property="name" destination="uP8-gA-kN3" id="trm-Pl-P8m"/>
                                             <outlet property="price" destination="veG-yK-eWR" id="VeW-hQ-F9S"/>
                                             <outlet property="quantity" destination="EuX-JU-i9l" id="Naz-qg-fSj"/>
@@ -166,7 +167,6 @@
         <!--CartView Controller-->
         <scene sceneID="tCy-am-ade">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D9M-v7-hmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="55p-gE-B2m" userLabel="CartView Controller" customClass="CartViewController" customModule="ShoppingCart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mez-fP-UtM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -177,7 +177,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CartCell" id="ZPl-QT-DiM" customClass="CartTableViewCell" customModule="ShoppingCart" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CartCell" id="ZPl-QT-DiM" customClass="CartTableViewCell" customModule="ShoppingCart" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZPl-QT-DiM" id="rU0-kK-pnD">
@@ -277,6 +277,7 @@
                         <outlet property="totalQuantity" destination="IeY-t5-HzZ" id="db7-YH-Wcc"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D9M-v7-hmw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="656.79999999999995" y="132.68365817091455"/>
         </scene>

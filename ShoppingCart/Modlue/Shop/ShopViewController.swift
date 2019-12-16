@@ -59,7 +59,7 @@ extension ShopViewController {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! CustomTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell", for: indexPath) as! ShopTableViewCellController
         let cartItem = state.tableViewItems[indexPath.row]
         cell.id.text = "\(cartItem.id)"
         cell.name.text = cartItem.name
@@ -76,7 +76,7 @@ extension ShopViewController{
         totalCost.text = state.totalCostlabelText
         totalQuantity.text = state.totalQuantityLabelText
         tableView.reloadData()
-//        navigationCartButton.isEnabled = state.cartButtonState
+        navigationCartButton.isEnabled = state.cartButtonState
         
     }
 }
