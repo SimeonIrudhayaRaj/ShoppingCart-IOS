@@ -26,13 +26,13 @@ class ShopViewModel: CartObserver {
     
     func viewWillAppear() {
         cart.setObserver(self)
-//        reloadState()
+        reloadState()
     }
     
     
     
     private var state = ShopViewState(
-        cartButtonLabelText: "Cart",
+        cartButtonLabelText: "Cart", 
         tableViewItems: [],
         totalCostlabelText: "Rs 0",
         totalQuantityLabelText: "0",
@@ -49,6 +49,7 @@ class ShopViewModel: CartObserver {
     }
     
     func viewDidLoad(){
+        cart.setObserver(self)
         let cartItems = shop
             .getProducts()
             .map {

@@ -11,7 +11,7 @@ import UIKit
 
 class CartViewController: UIViewController , UITableViewDataSource , CartViewObserver{
     // MARK: - Dependencies
-    let viewModel = CartViewModel()
+    let viewModel = CartViewModelFactory.createInstance()
 
     
     //MARK: - State

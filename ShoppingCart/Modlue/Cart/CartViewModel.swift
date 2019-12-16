@@ -10,18 +10,21 @@ protocol CartViewObserver : class{
 }
 class CartViewModel :CartObserver{
     
-    let cart = Cart.shared
-    let shop = Shop.shared
-  
+    private let shop: ShopService
+    private let cart: CartService
+    
     weak var delegate : CartViewObserver?
     
-    init(){
-        cart.observer=self
+    init(shop: ShopService, cart: CartService) {
+        self.shop = shop
+        self.cart = cart
+        
+        cart.setObserver(self)
     }
     
     func viewDidLoad() {
         let currentState = CartViewState(tableViewItems: cart.getCartItems() ,
-                                         totalCostLabelText:"\(cart.getTotalCost())",
+                                         totalCostLabelText:"Rs.\(cart.getTotalCost())",
                                          totalQuantityLabelText: "\(cart.getTotalQuantity())" )
         state = currentState
     }
@@ -46,7 +49,9 @@ class CartViewModel :CartObserver{
         return cartItem
     }
     
-    
+    func getState() -> CartViewState {
+        return state
+    }
 }
 //MARK: - CartObserver
 extension CartViewModel{

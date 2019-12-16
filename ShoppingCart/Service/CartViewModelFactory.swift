@@ -1,19 +1,19 @@
 //
-//  ShopViewModelFactory.swift
+//  CartViewModelFactory.swift
 //  ShoppingCart
 //
-//  Created by Simeon Irudhaya Raj J on 13/12/19.
+//  Created by Simeon Irudhaya Raj J on 16/12/19.
 //  Copyright © 2019 Simeon Irudhaya Raj J. All rights reserved.
 //
-
-class ShopViewModelFactory {
-    static func createInstance() -> ShopViewModel {
+class CartViewModelFactory {
+    static func createInstance() -> CartViewModel {
         let shopService: ShopService = Shop()
         let cartService: CartService = Cart.shared
         
-        return ShopViewModel(
+        return CartViewModel(
             shop: shopService,
             cart: cartService
         )
     }
 }
+

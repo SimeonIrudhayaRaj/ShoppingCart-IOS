@@ -9,340 +9,46 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Service/Cart.swift"
-            timestampString = "598025089.968125"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "getTotalCost()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Service/Cart.swift"
-            timestampString = "598025089.96823"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "getTotalCost()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Cart/CartTableViewCellModel.swift"
-            timestampString = "597913402.8875099"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "plusButtonPressed(id:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewController.swift"
-            timestampString = "598025089.968362"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "renderCurrentState()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCartTests/ShoppingCartTests.swift"
-            timestampString = "598025089.968729"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__deallocating_deinit"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.381539"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__allocating_init(invocation: Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.383727"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.init(invocation: Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.38585"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "65">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.3877259"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.init(selector: ObjectiveC.Selector) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.389576"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "65">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__allocating_init() -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.392151"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.init() -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.393997"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "55">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCartTests/ShoppingCartTests.swift"
-            timestampString = "598025089.968791"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "unknown"
-            landmarkType = "0">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__deallocating_deinit"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.397014"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__allocating_init(invocation: Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.400234"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.init(invocation: Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.4026181"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "65">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.404521"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.init(selector: ObjectiveC.Selector) -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.40645"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "65">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.__allocating_init() -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.408394"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "4">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ShoppingCartTests.ShoppingCartTests.init() -&gt; ShoppingCartTests.ShoppingCartTests"
-                  moduleName = "ShoppingCartTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/ShoppingCartTests.swift"
-                  timestampString = "597931066.410521"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "12"
-                  endingLineNumber = "12"
-                  offsetFromSymbolStart = "55">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCartTests/ShoppingCartTests.swift"
-            timestampString = "598025089.968845"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "ShoppingCartTests"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/CustomTableViewCell/CustomTableViewCell.swift"
-            timestampString = "598025089.968901"
+            filePath = "ShoppingCartTests/CartViewModelTests.swift"
+            timestampString = "598171013.4689831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
-            landmarkName = "plus(_:)"
+            landmarkName = "testViewDidLoad()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartTests.CartViewModelTests.testViewDidLoad() -&gt; ()"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170358.206107"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "516">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Bool in ShoppingCartTests.CartViewModelTests.testViewDidLoad() -&gt; ()"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170358.208055"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -351,14 +57,91 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/CustomTableViewCell/CustomTableViewCell.swift"
-            timestampString = "598025089.968959"
+            filePath = "ShoppingCartTests/CartViewModelTests.swift"
+            timestampString = "598171013.469283"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "plus(_:)"
-            landmarkType = "7">
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CartViewModelTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartTests.CartViewModelTests.cart.getter : Swift.ImplicitlyUnwrappedOptional&lt;ShoppingCart.CartService&gt;"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170452.61044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartTests.CartViewModelTests.cart.setter : Swift.ImplicitlyUnwrappedOptional&lt;ShoppingCart.CartService&gt;"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170452.612847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartTests.CartViewModelTests.init(invocation: Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; ShoppingCartTests.CartViewModelTests"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170452.615218"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartTests.CartViewModelTests.init(selector: ObjectiveC.Selector) -&gt; ShoppingCartTests.CartViewModelTests"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170452.618353"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartTests.CartViewModelTests.init() -&gt; ShoppingCartTests.CartViewModelTests"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170452.620975"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -367,158 +150,46 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Service/Cart.swift"
-            timestampString = "598025089.969008"
+            filePath = "ShoppingCartTests/CartViewModelTests.swift"
+            timestampString = "598171013.469336"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "addItem(id:)"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "testCartWithMultipleItems()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewModel.swift"
-            timestampString = "598025089.969067"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "itemsChanged(to:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Service/Cart.swift"
-            timestampString = "598025089.969124"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "getTotalCost()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewModel.swift"
-            timestampString = "598025089.9691761"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "reloadState()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewModel.swift"
-            timestampString = "598025089.969231"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "reloadState()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewModel.swift"
-            timestampString = "598025089.96928"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "114"
-            endingLineNumber = "114"
-            landmarkName = "reloadState()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewModel.swift"
-            timestampString = "598025089.969327"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "reloadState()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewModel.swift"
-            timestampString = "598025089.969373"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
-            landmarkName = "reloadState()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Modlue/Shop/ShopViewModel.swift"
-            timestampString = "598025089.969421"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "init(shop:cart:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ShoppingCart/Service/Cart.swift"
-            timestampString = "598025089.969468"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "setObserver(_:)"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShoppingCartTests.CartViewModelTests.testCartWithMultipleItems() -&gt; ()"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170476.94949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "767">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.Bool in ShoppingCartTests.CartViewModelTests.testCartWithMultipleItems() -&gt; ()"
+                  moduleName = "ShoppingCartTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/simeon-pt3289/Desktop/ShoppingCart/ShoppingCartTests/CartViewModelTests.swift"
+                  timestampString = "598170476.95146"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

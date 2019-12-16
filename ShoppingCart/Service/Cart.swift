@@ -48,8 +48,6 @@ class Cart: CartService {
     }
     
     func removeItem(id:Int){
-//        let quantityOfSelectedItem=quantityOfProducts[id]!-1
-//        self.quantityOfProducts.updateValue(quantityOfSelectedItem,forKey: id )
         for (i, cartItem) in cartItems.enumerated() where cartItem.id == id {
             cartItems[i].quantity -= 1
             if cartItems[i].quantity == 0 {
@@ -96,17 +94,9 @@ class Cart: CartService {
             totalCost +=  cartItem.price * cartItem.quantity
         }
         return totalCost
-
     }
     
-//    func getCartItemWithId (id:Int) -> CartItem? {
-//        let currentCartItem :CartItem?
-//        for cartItem in cartItems where cartItem.id == id {
-//             currentCartItem = cartItem
-//            break
-//        }
-//        return currentCartItem
-//    }
+    
 }
 
 
