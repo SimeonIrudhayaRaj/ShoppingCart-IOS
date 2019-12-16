@@ -8,7 +8,12 @@
 
 protocol CartService: class {
     func setObserver(_ observer: CartObserver?)
+    
+    /// teststs
+    ///
+    /// - Parameter id: sssssdds
     func addItem(id: Int)
+    
     func removeItem(id: Int)
     func getQuantityOfItem(id: Int) -> Int
     func getTotalQuantity() -> Int
